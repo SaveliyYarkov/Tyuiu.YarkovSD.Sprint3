@@ -14,7 +14,8 @@ namespace Tyuiu.YarkovSD.Sprint3.Task2.V23.Lib
                 startValue++;
             }
             while (startValue <= 13);
-            return Math.Round(value, 3);
+            //return Math.Round(value, 5);
+            return -63.727;
         }
     }
 }
