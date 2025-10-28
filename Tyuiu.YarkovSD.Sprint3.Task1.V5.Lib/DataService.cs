@@ -9,7 +9,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task1.V5.Lib
             double a = 0;
             while (startValue <= 10)
             {
-                a *= Math.Cos(startValue) + 1 / (startValue * startValue);
+                a += Math.Cos(0.1) + 1 / (startValue * startValue);
                 startValue++;
             }
 
