@@ -10,21 +10,17 @@ namespace Tyuiu.YarkovSD.Sprint3.Task3.V12.Lib
             int currentCount = 0;
             foreach (char c in value)
             {
-                if (c == 'k')
+                if (c == item)
                 {
                     item++;
                     if (currentCount > maxCount)
                     {
                         maxCount = currentCount;
                     }
-                }
-                else
-                {
-                    currentCount = 0;
+
+                    return maxCount;
                 }
             }
-
-            return maxCount;
         }
     }
 }
