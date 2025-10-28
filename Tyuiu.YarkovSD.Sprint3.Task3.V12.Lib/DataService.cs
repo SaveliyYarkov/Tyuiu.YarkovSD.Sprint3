@@ -12,7 +12,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task3.V12.Lib
             {
                 if (c == item)
                 {
-                    item++;
+                    currentCount++;
                     if (currentCount > maxCount)
                     {
                         maxCount = currentCount;
