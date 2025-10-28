@@ -17,10 +17,11 @@ namespace Tyuiu.YarkovSD.Sprint3.Task3.V12.Lib
                     {
                         maxCount = currentCount;
                     }
-
-                    return maxCount;
                 }
+                
             }
+
+            return maxCount;
         }
     }
 }
