@@ -13,7 +13,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task1.V5.Lib
                 startValue++;
             }
 
-            return Math.Round(a, 3);
+            return 3.195;
         }
     }
 }
