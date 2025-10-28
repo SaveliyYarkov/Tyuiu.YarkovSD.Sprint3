@@ -7,15 +7,14 @@ namespace Tyuiu.YarkovSD.Sprint3.Task2.V23.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double a = 1.5;
-            double S = 0;
 
             do
             {
-                S += (Math.Pow(a, startValue) + 1/4) * Math.Sin(startValue);
+                value += (Math.Pow(a, startValue) + 1/4) * Math.Sin(startValue);
                 startValue++;
             }
-            while (startValue <= 13);
-            return Math.Round(a, 3);
+            while (value <= 13);
+            return Math.Round(value, 3);
         }
     }
 }
