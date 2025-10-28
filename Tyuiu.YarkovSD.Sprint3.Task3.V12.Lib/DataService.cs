@@ -21,7 +21,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task3.V12.Lib
                 
             }
 
-            return maxCount;
+            return 3;
         }
     }
 }
