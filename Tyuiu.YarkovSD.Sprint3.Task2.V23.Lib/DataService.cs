@@ -13,7 +13,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task2.V23.Lib
                 value += (Math.Pow(a, startValue) + 1/4) * Math.Sin(startValue);
                 startValue++;
             }
-            while (value <= 13);
+            while (startValue <= 13);
             return Math.Round(value, 3);
         }
     }
