@@ -18,7 +18,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task7.V21.Lib
                 }
                 else
                 {
-                    a[i] = Math.Round(((2 + Math.Cos(x) + 2)/ 2 * x - 1) + Math.Cos(x) - 5 * x + 3, 2);
+                    a[i] = Math.Round(((2 * Math.Cos(x) + 2)/ 2 * x - 1) + Math.Cos(x) - 5 * x + 3, 2);
                     i++;
                 }
             }
