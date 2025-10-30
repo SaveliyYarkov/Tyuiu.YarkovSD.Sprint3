@@ -11,7 +11,7 @@ namespace Tyuiu.YarkovSD.Sprint3.Task7.V21.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (2 * x  - 1 == 0)
+                if (2 * x  - 2 == 0)
                 {
                     a[i] = 0.0;
                     i++;
