@@ -6,8 +6,8 @@ namespace Tyuiu.YarkovSD.Sprint3.Task7.V21.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] a = new double[stopValue - startValue + 1];
-            int i = 0;
+            int i = stopValue - startValue + 1;
+            double[] a = new double[i];
 
             for (int x = startValue; x <= stopValue; x++)
             {
